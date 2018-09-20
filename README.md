@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/killmenot/browl-make.svg?branch=master)](https://travis-ci.org/killmenot/browl-make) [![Coverage Status](https://coveralls.io/repos/github/killmenot/browl-plugin-yaml/badge.svg?branch=master)](https://coveralls.io/github/killmenot/browl-make?branch=master) [![Dependency Status](https://david-dm.org/killmenot/browl-make.svg)](hhttps://david-dm.org/killmenot/browl-make) [![npm version](https://img.shields.io/npm/v/browl-make.svg)](https://www.npmjs.com/package/browl-make)
 
-Browl make strategy that allows browl to deploy a repository is managed by Makefile
+Browl make strategy allows browl to deploy an instance that is managed by Makefile
 
 ## Usage
 
