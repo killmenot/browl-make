@@ -14,7 +14,7 @@
     "url": "https://github.com/killmenot/browl-make/issues"
   },
   "scripts": {
-    "lint": "eslint lib index.js",
+    "lint": "eslint lib test index.js",
     "test": "NODE_ENV=test mocha",
     "coverage": "nyc --reporter=html --reporter=text npm run test",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
@@ -26,9 +26,6 @@
     "all": true,
     "include": [
       "lib/**/*.js"
-    ],
-    "exclude": [
-      "test/**/*.js"
     ]
   },
   "dependencies": {
